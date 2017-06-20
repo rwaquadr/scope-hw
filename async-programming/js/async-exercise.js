@@ -1,5 +1,5 @@
 var slideshow = { 
-    photoList: ['birds', 'puppies', 'rainbows', 'kittens', 'babies'], 
+    photoList: ['photo1', 'photo2', 'photo3', 'photo4', 'photo5'], 
  
     currentPhotoIndex: 0, 
  
@@ -33,13 +33,14 @@ var slideshow = {
     }, 
  
     pause: function() { 
-        clearInterval(this.playInterval); 
+        clearInterval(this.playInterval);
+        
     } 
- 
+
 } 
 
 
-	
+console.log(slideshow.play());
 
 
 
